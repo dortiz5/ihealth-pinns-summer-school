@@ -1,12 +1,10 @@
-# Applications of Physics-Informed Neural Networks (PINNs)
+# Redes neuronales artificiales informadas por la física​ (PINNs)
 
 Este repositorio contiene material para el **taller** sobre redes neuronales informadas por la física (PINNs).
 
 ## Introduction
 
 En los últimos años, las redes neuronales profundas se han convertido en herramientas fundamentales para la modelación y el análisis de datos complejos en espacios de alta dimensionalidad. No obstante, estas técnicas suelen requerir grandes volúmenes de datos para ajustar sus numerosos parámetros, lo cual no siempre es viable en situaciones donde la disponibilidad de datos es limitada. Para abordar este desafío, se han desarrollado métodos innovadores como las Redes Neuronales Informadas por Física (PINNs), que combinan el aprendizaje profundo con información física del problema a resolver. Basadas en el teorema de aproximación universal, estas redes son capaces de aproximar funciones no lineales complejas bajo ciertas arquitecturas [(Hornik, 1991)](https://www.sciencedirect.com/science/article/pii/089360809190009T?via%3Dihub), [(Barron, 1993)](https://ieeexplore.ieee.org/document/256500), [(Villota, 2019)](https://investigacion.unirioja.es/documentos/5fbf7e47299952682503c2fa/). Adicionalmente, el uso de diferenciación automática [(Baydin *et al.*, 2018)](https://arxiv.org/abs/1502.05767) permite que las PINNs resuelvan modelos físicos complejos sin la necesidad de grandes cantidades de datos. Esta integración de información adicional facilita la optimización del modelo, permitiendo un mayor nivel de precisión y robustez en aplicaciones donde los datos disponibles son escasos [(Raissi *et al.*, 2019)](https://www.sciencedirect.com/science/article/pii/S0021999118307125), [(Karniadakis *et al.*, 2021)](https://www.nature.com/articles/s42254-021-00314-5).
-
-
 
 ## Instalación y configuración
 Hay dos opciones para participar en este taller, con las instrucciones que figuran a continuación:
@@ -106,5 +104,3 @@ compartimos 4 que pueden servir como punto de partida para el tópico.
   in physics-informed neural networks."](https://arxiv.org/abs/2109.01050)
   Advances in Neural Information Processing Systems 34 (2021): 26548-26560.
 
-
-## Acknowledgements
