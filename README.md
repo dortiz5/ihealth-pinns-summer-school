@@ -15,9 +15,9 @@ Hay dos opciones para participar en este taller, con las instrucciones que figur
 ### Google Colab
 Para iniciar los cuadernos en Google Colab haz clic en los siguientes enlaces para cada uno de los ejercicios:
 
-* [![Activity 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-1.ipynb?authuser=2) 
-* [![Activity 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-2.ipynb?authuser=2) 
-* [![Activity 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-3.ipynb?authuser=2) 
+* Actividad 1 [![Activity 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-1.ipynb?authuser=2) 
+* Actividad 2 [![Activity 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-2.ipynb?authuser=2) 
+* Actividad 3 [![Activity 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-3.ipynb?authuser=2) 
 
 _Nota:_
 * _Para ejecutar en Google Colab necesitas tener una cuenta de Google._
