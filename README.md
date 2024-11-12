@@ -9,8 +9,25 @@ En los últimos años, las redes neuronales profundas se han convertido en herra
 ## Instalación y configuración
 Hay dos opciones para participar en este taller, con las instrucciones que figuran a continuación:
 
- - via a [Instalación local](#Instalación-local) (recomendada)
- - on [Google Colab](#google-colab)
+ - en [Google Colab](#google-colab)
+ - via [Instalación local](#Instalación-local) (recomendada)
+
+### Google Colab
+Para iniciar los cuadernos en Google Colab haz clic en los siguientes enlaces para cada uno de los ejercicios:
+
+* [![Activity 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-1.ipynb?authuser=2) 
+* [![Activity 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-2.ipynb?authuser=2) 
+* [![Activity 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-3.ipynb?authuser=2) 
+
+_Nota:_
+* _Para ejecutar en Google Colab necesitas tener una cuenta de Google._
+* _**Si abandonas una sesión en Colab, tu trabajo se perderá, así que asegúrate de guardar cualquier avance que desees conservar.**_
+<!--### Binder
+
+If a local installation is not feasible, you can launch the repository on [Binder](https://mybinder.org/v2/gh/dortiz5/ihealth-pinns-workshop/HEAD).
+
+_Notes:_
+* _If you exit a Binder session, your work will be lost, so make sure to save any work you want to keep._-->
 
 ### Instalación local
 Recomendamos usar ``conda`` para instalar los paquetes necesarios para
@@ -50,23 +67,7 @@ El siguiente paso a veces es útil si tienes problemas con tu jupyter notebook a
 python -m ipykernel install --user --name=pinn-ihealth-tutorial
 ```
 
-### Google Colab
-To launch the notebooks in Google Colab click the following links for each of the exercises:
 
-* [![Activity 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-1.ipynb?authuser=2) 
-* [![Activity 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-2.ipynb?authuser=2) 
-* [![Activity 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-3.ipynb?authuser=2) 
-
-_Notes:_
-* _Running in Google Colab requires you to have a Google account._
-* _If you leave a Colab session your work will be lost, so be careful to save any work
-  you want to keep._
-<!--### Binder
-
-If a local installation is not feasible, you can launch the repository on [Binder](https://mybinder.org/v2/gh/dortiz5/ihealth-pinns-workshop/HEAD).
-
-_Notes:_
-* _If you exit a Binder session, your work will be lost, so make sure to save any work you want to keep._-->
 
 
 ## Material relacionado y algunas referencias:
