@@ -64,7 +64,7 @@ Este comando debería llevarte a la ubicación correcta dentro de tu navegador p
 El siguiente paso a veces es útil si tienes problemas con tu jupyter notebook al encontrar el entorno. Querrás hacer esto antes de iniciar el jupyter notebook.
 
 ```
-python -m ipykernel install --user --name=pinn-ihealth-tutorial
+python -m ipykernel install --user --name=pinns-tutorial
 ```
 
 
