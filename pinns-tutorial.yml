@@ -1,0 +1,14 @@
+name: pinns-tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.11
+  - numpy>=1.26
+  - scipy>=1.13
+  - matplotlib>=3.8
+  - jupyterlab>=4.2
+  - pytorch>=2.2
+  - torchvision>=0.20
+  - sympy>=1.12
+  - ipympl>=0.9
