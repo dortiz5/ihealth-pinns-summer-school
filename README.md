@@ -55,9 +55,9 @@ python -m ipykernel install --user --name=pinn-ihealth-tutorial
 ### Google Colab
 To launch the notebooks in Google Colab click the following links for each of the exercises:
 
-* [Activity 1](https://colab.research.google.com/github/dortiz5/ihealth-pinns-workshop/blob/main/notebooks/activity-1.ipynb) 
-* [Activity 2](https://colab.research.google.com/github/dortiz5/ihealth-pinns-workshop/blob/main/notebooks/activity-2.ipynb) 
-* [Activity 3](https://colab.research.google.com/github/dortiz5/ihealth-pinns-workshop/blob/main/notebooks/activity-3.ipynb) 
+* [Activity 1](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-1.ipynb?authuser=2) 
+* [Activity 2](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-2.ipynb?authuser=2) 
+* [Activity 3](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-3.ipynb?authuser=2) 
 
 _Notes:_
 * _Running in Google Colab requires you to have a Google account._
