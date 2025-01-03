@@ -51,10 +51,12 @@ Instalar conda es fácil y funciona en *Windows, macOS y Linux*. Solo tienes que
 
 <details>
 <summary> <samp>&#9776;  Clona o haz un fork del repositorio</samp></summary>
-Dirígete al directorio donde deseas instalar este repositorio en tu sistema y clónalo vía https ejecutando:  
+Dirígete al directorio donde deseas instalar este repositorio en tu sistema y clónalo vía https ejecutando:
+ 
 ```
 git clone https://github.com/dortiz5/ihealth-pinns-summer-school.git
-```  
+```
+
 Esto creará un directorio `ihealth-pinns-summer-school/` con el contenido de este repositorio.  
 
 Ten en cuenta que si tienes una cuenta de GitHub y deseas guardar tu trabajo, te recomendamos [hacer un fork del repositorio](https://github.com/dortiz5/ihealth-pinns-summer-school/fork) y clonar tu fork. Esto te permitirá enviar tus cambios y progresos de vuelta a tu fork para futuras referencias.
