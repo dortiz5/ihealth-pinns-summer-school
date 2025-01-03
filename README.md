@@ -45,7 +45,9 @@ este tutorial.
 
 <details>
 <summary> <samp>&#9776;  Instalación `Miniconda`</samp></summary>
+ 
 Instalar conda es fácil y funciona en *Windows, macOS y Linux*. Solo tienes que seguir las [instrucciones](https://docs.anaconda.com/free/miniconda/miniconda-install/) en el sitio web. **¡Asegúrate de probar tu instalación!**
+
 </details>
 
 
