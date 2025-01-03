@@ -1,10 +1,25 @@
 # Redes neuronales artificiales informadas por la física​ (PINNs)
 
-Este repositorio contiene material para el **taller** sobre redes neuronales informadas por la física (PINNs).
+Este repositorio contiene material para el **taller** sobre redes neuronales informadas por la física (PINNs) de la escuela de verano del Instituto Milenio [IHEALTH](https://i-health.cl/).  
 
 ## Introduction
 
 En los últimos años, las redes neuronales profundas se han convertido en herramientas fundamentales para la modelación y el análisis de datos complejos en espacios de alta dimensionalidad. No obstante, estas técnicas suelen requerir grandes volúmenes de datos para ajustar sus numerosos parámetros, lo cual no siempre es viable en situaciones donde la disponibilidad de datos es limitada. Para abordar este desafío, se han desarrollado métodos innovadores como las Redes Neuronales Informadas por Física (PINNs), que combinan el aprendizaje profundo con información física del problema a resolver. Basadas en el teorema de aproximación universal, estas redes son capaces de aproximar funciones no lineales complejas bajo ciertas arquitecturas [(Hornik, 1991)](https://www.sciencedirect.com/science/article/pii/089360809190009T?via%3Dihub), [(Barron, 1993)](https://ieeexplore.ieee.org/document/256500), [(Villota, 2019)](https://investigacion.unirioja.es/documentos/5fbf7e47299952682503c2fa/). Adicionalmente, el uso de diferenciación automática [(Baydin *et al.*, 2018)](https://arxiv.org/abs/1502.05767) permite que las PINNs resuelvan modelos físicos complejos sin la necesidad de grandes cantidades de datos. Esta integración de información adicional facilita la optimización del modelo, permitiendo un mayor nivel de precisión y robustez en aplicaciones donde los datos disponibles son escasos [(Raissi *et al.*, 2019)](https://www.sciencedirect.com/science/article/pii/S0021999118307125), [(Karniadakis *et al.*, 2021)](https://www.nature.com/articles/s42254-021-00314-5).
+
+## Cronograma (TENTATIVO)
+El taller se llevará a cabo el viernes 10 de enero de 2025, entre las 11:00 y 16:00 hrs (CLT).
+
+
+| Hora          | Actividad | 
+| ------------- | --------- | 
+| 11:00 – 12:30 | Taller teórico: conceptos básicos | 
+| 12:30 – 13:30 | Taller teórico: algunas aplicaciones | 
+| 13:30 – 14:30 | Actividad 1: ANN vs. PINNs | 
+| 14:30 – 14:40 | Descanso | 
+| 14:40 – 15:20 | Actividad 2: Aplicaciones en problemas directos |
+| 15:20 – 15:50 | Actividad 3: Aplicaciones en problemas inversos |
+| 15:50 – 16:00 | Clausura |
+
 
 ## Instalación y configuración
 Hay dos opciones para participar en este taller, con las instrucciones que figuran a continuación:
@@ -15,38 +30,47 @@ Hay dos opciones para participar en este taller, con las instrucciones que figur
 ### Google Colab
 Para iniciar los cuadernos en Google Colab haz clic en los siguientes enlaces para cada uno de los ejercicios:
 
-* Actividad 1 [![Activity 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-1.ipynb?authuser=2) 
-* Actividad 2 [![Activity 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-2.ipynb?authuser=2) 
-* Actividad 3 [![Activity 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/deep-learning-UV-PINN-curso/blob/main/notebooks/activity-3.ipynb?authuser=2) 
+* Actividad 1 [![Activity 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-1.ipynb?authuser=2) 
+* Actividad 2 [![Activity 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-2.ipynb?authuser=2) 
+* Actividad 3 [![Activity 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-3.ipynb?authuser=2) 
 
-_Nota:_
+_**Notas importantes:**_
 * _Para ejecutar en Google Colab necesitas tener una cuenta de Google._
 * _**Si abandonas una sesión en Colab, tu trabajo se perderá, así que asegúrate de guardar cualquier avance que desees conservar.**_
-<!--### Binder
 
-If a local installation is not feasible, you can launch the repository on [Binder](https://mybinder.org/v2/gh/dortiz5/ihealth-pinns-workshop/HEAD).
-
-_Notes:_
-* _If you exit a Binder session, your work will be lost, so make sure to save any work you want to keep._-->
 
 ### Instalación local
 Recomendamos usar ``conda`` para instalar los paquetes necesarios para
 este tutorial.
 
-#### (opcional) Instalación `Miniconda`
+<details>
+<summary> <samp>&#9776;  Instalación `Miniconda`</samp></summary>
 Instalar conda es fácil y funciona en *Windows, macOS y Linux*. Solo tienes que seguir las [instrucciones](https://docs.anaconda.com/free/miniconda/miniconda-install/) en el sitio web. **¡Asegúrate de probar tu instalación!**
+</details>
+
+
+<details>
+<summary> <samp>&#9776;  Clona o haz un fork del repositorio</samp></summary>
+Dirígete al directorio donde deseas instalar este repositorio en tu sistema y clónalo vía https ejecutando:  
+```
+git clone https://github.com/dortiz5/ihealth-pinns-summer-school.git
+```  
+Esto creará un directorio `ihealth-pinns-summer-school/` con el contenido de este repositorio.  
+
+Ten en cuenta que si tienes una cuenta de GitHub y deseas guardar tu trabajo, te recomendamos [hacer un fork del repositorio](https://github.com/dortiz5/ihealth-pinns-summer-school/fork) y clonar tu fork. Esto te permitirá enviar tus cambios y progresos de vuelta a tu fork para futuras referencias.
+</details>
 
 
 #### 1. Crear el ambiente utilizando `conda`
 **Asegúrate de tener conda instalado**. Este proyecto incluye un archivo [`pinns-tutorial.yml`](pinns-tutorial.yml) para crear e instalar el entorno `python3`.
 
-Desde el directorio raíz `deep-learning-UV-PINNs-curso/`, abre el *Anaconda Prompt* en _Windows_, o en la *terminal* en macOS y Linux, y ejecuta el siguiente código:
+Desde el directorio raíz `ihealth-pinns-summer-school/`, abre el *Anaconda Prompt* en _Windows_, o en la *terminal* en macOS y Linux, y ejecuta el siguiente código:
 
 ```console
 conda env create -f pinns-tutorial.yml
 ```
 
-Esto creará un entorno `conda` llamado `pinn-ihealth-tutorial`. Para activarlo sólo tienes que ejecutar
+Esto creará un entorno `conda` llamado `pinns-tutorial`. Para activarlo sólo tienes que ejecutar
 
 ```console
 conda activate pinns-tutorial
@@ -68,24 +92,21 @@ python -m ipykernel install --user --name=pinns-tutorial
 ```
 
 
-
-
 ## Material relacionado y algunas referencias:
 
 - Workshop realizado por [Prof. Ph.D. Francisco Sahli](https://fsahli.github.io/), en abril del 2024: [Workshop](https://fsahli.github.io/PINN-notes/)
 
 - Redes Neuronales Artificiales: [Interesante serie de vídeos de 3Blue1Brown sobre redes neuronales y aprendizaje automático](https://www.3blue1brown.com/topics/neural-networks)
 
-- Diferenciación automática. Aquí encontrará 3 enlaces sobre la diferenciación automática y los números duales: [link 1](https://thenumb.at/Autodiff/), [link 2](https://blog.demofox.org/2014/12/30/dual-numbers-automatic-differentiation/), [link 3](https://en.wikipedia.org/wiki/Dual_number). Also, here you can find a  [tutorial](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html#a-gentle-introduction-to-torch-autograd) in 
-PyTorch
+- Diferenciación automática. Aquí encontrará 3 enlaces sobre la diferenciación automática y los números duales: [link 1](https://thenumb.at/Autodiff/), [link 2](https://blog.demofox.org/2014/12/30/dual-numbers-automatic-differentiation/), [link 3](https://en.wikipedia.org/wiki/Dual_number). Además, aquí puedes encontrar un  [tutorial](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html#a-gentle-introduction-to-torch-autograd) en PyTorch
 
 - [Redes neuronales basadas en la física para visión por ordenador e imágenes médicas [1].](https://collab.dvb.bayern/display/TUMdlma/Physics+Informed+Neural+Network+for+Computer+Vision+and+Medical+Imaging)
 
-- Ben Moseley [personal blog](https://benmoseley.blog/)
+- Ben Moseley [blog personal](https://benmoseley.blog/)
 
 
 Existen muchos artículos científicos relacionados con PINNs. A continuación,
-compartimos 4 que pueden servir como punto de partida para el tópico.
+compartimos 4 que pueden servir como punto de partida:
 
 - Raissi, Maziar, Paris Perdikaris, and George E. Karniadakis.
   ["Physics-informed neural networks: A deep learning framework for solving
