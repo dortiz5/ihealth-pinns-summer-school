@@ -136,6 +136,7 @@ dmypy.json
 *.cgal
 *.off
 *.jpeg
+*.jpg
 *.pyc
 *.txt
 *.gz
@@ -145,3 +146,5 @@ dmypy.json
 *.h5
 *.e
 *.pvd
+*.pptx
+slides/Template_iHEALTH 1 1.pptx

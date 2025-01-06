@@ -37,7 +37,7 @@ Para iniciar los cuadernos en Google Colab haz clic en los siguientes enlaces pa
 
 |Actividad 1 | Actividad 2 | Actividad 3 |
 |------------|-------------|-------------|
-|[![Activity 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-1.ipynb?authuser=2)|[![Activity 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-2.ipynb?authuser=2)|[![Activity 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-3.ipynb?authuser=2) 
+|[![Activity 1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-1.ipynb?authuser=2)|[![Activity 2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-2.ipynb?authuser=2)|[![Activity 3](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dortiz5/ihealth-pinns-summer-school/blob/main/notebooks/activity-3.ipynb?authuser=2)
 </center>
 
 _**Notas importantes:**_
