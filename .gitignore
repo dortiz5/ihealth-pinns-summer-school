@@ -140,11 +140,8 @@ dmypy.json
 *.pyc
 *.txt
 *.gz
-*.pdf
 *.svg
 *.png
 *.h5
 *.e
 *.pvd
-*.pptx
-slides/Template_iHEALTH 1 1.pptx

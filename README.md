@@ -13,8 +13,7 @@ El taller se llevará a cabo el viernes 10 de enero de 2025, entre las 11:00 y 1
 
 | Hora          | Actividad | 
 | ------------- | --------- | 
-| 11:00 – 12:00 | Taller teórico: conceptos básicos | 
-| 12:00 – 12:30 | Taller teórico: algunas aplicaciones |
+| 11:00 – 12:30 | Taller teórico: conceptos básicos y aplicaciones| 
 | 12:30 – 13:30 | Almuerzo |
 | 13:30 – 14:30 | Actividad 1: ANN vs. PINNs | 
 | 14:30 – 14:40 | Descanso | 
